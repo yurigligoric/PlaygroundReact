@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 export default function Clock({ time }) {
     let hours = time.getHours();
     if (hours >= 0 && hours <= 6) {
@@ -11,3 +13,5 @@ export default function Clock({ time }) {
       </h1>
     );
   }
+
+  
